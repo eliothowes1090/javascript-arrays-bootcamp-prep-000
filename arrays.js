@@ -23,6 +23,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
 };
 
 function accessElementInArray(array, index) {
-  var index=array.splice(2, 1)
-  return number.index
+  var index=array[2]
+  return index
 };
