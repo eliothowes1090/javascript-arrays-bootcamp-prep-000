@@ -18,7 +18,6 @@ function addElementToEndOfArray(array, element) {
 };
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  const array = [1]
   var element=array.splice(array.length, 1, "foo")
   return array
 };
