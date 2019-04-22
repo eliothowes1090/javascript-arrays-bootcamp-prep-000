@@ -19,7 +19,12 @@ function addElementToEndOfArray(array, element) {
 };
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  var array = [1]
+  var array = [1, "foo"]
   var element=array.splice(array.length, 1, "foo")
   return array
 };
+
+function accessElementInArray(array, index) {
+  var array = [1]
+};
+
