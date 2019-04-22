@@ -11,3 +11,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   var element=array.splice(0, 0, "foo")
   return array
 };
+
+function addElementToEndOfArray(array, element) {
+  var array = [1]
+  var element=array.push("foo")
+  return array  
+};
