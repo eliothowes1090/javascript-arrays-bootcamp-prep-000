@@ -33,6 +33,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 };
 
 function removeElementFromBeginningOfArray(array) {
+  const = array
   array.splice(0, 1)
   return array
 };
