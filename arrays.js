@@ -33,5 +33,5 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 };
 
 function removeElementFromBeginningOfArray(array) {
-  var newArray=array.splice(0, 1)
+  array.splice(0, 1)
 };
