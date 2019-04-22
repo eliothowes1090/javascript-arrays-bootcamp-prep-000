@@ -8,6 +8,12 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   var array = [1]
+  var element=array.splice(0, 0, "foo")
+  return array
+};
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  var array = [1]
   var element=array.splice(0, 1, "foo")
   return array
 };
